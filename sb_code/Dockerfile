@@ -8,3 +8,4 @@ WORKDIR /app
 COPY --from=builder /app/target/springbootApp.jar app.jar
 CMD ["java","-jar","app.jar"]
 
+ 
