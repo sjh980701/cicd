@@ -33,5 +33,5 @@ jobs:
         context: ./sb_code
         file: ./sb_code/Dockerfile
         push: true
-        tags: yourdockerhub/sbapp:${{ github.sha }}
+        tags: sjh980701/sbapp:${{ github.sha }}
 
