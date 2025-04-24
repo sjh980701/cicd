@@ -7,7 +7,7 @@ on:
       - '**.java'
       - '**.yml'
       - '**.gradle'
-      - '/sb_code/Dockerfile'
+      - 'sb_code/Dockerfile'
       - '.github/workflows/**'
 
 jobs:
