@@ -30,8 +30,8 @@ jobs:
     - name: Build and Push Docker image
       uses: docker/build-push-action@v5
       with:
-        context: .
-        file: ./Dockerfile
+        context: ./sb_code
+        file: ./sb_code/Dockerfile
         push: true
         tags: yourdockerhub/sbapp:${{ github.sha }}
 
